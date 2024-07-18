@@ -1,4 +1,3 @@
-
 local plr = game:GetService('Players').LocalPlayer
 local runS = game:GetService('RunService')
 local pgui = plr.PlayerGui
@@ -30,7 +29,7 @@ baseui.Name = "ScriptedUI"
 baseui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 local BG = Instance.new("Frame")
-BG.BackgroundColor3 = Color3.fromRGB(20,20,20)
+BG.BackgroundColor3 = Color3.fromRGB(15,15,15)
 BG.Position = UDim2.new(0.5,0,0.5,0)
 BG.AnchorPoint = Vector2.new(0.5,0.5)
 BG.Size = UDim2.fromOffset(743, 448)
@@ -46,7 +45,7 @@ bgCorner.Parent = BG
 --// Tab holder
 
 local TabBG = Instance.new("Frame")
-TabBG.BackgroundColor3 = Color3.fromRGB(25,23,26)
+TabBG.BackgroundColor3 = Color3.fromRGB(20,20,20)
 TabBG.Size = UDim2.fromOffset(183, 448)
 TabBG.Parent = BG
 
@@ -55,7 +54,7 @@ TabBGCorner.CornerRadius = UDim.new(0, 8)
 TabBGCorner.Parent = TabBG
 
 local Inliner = Instance.new("Frame")
-Inliner.BackgroundColor3 = Color3.fromRGB(25,23,26)
+Inliner.BackgroundColor3 = Color3.fromRGB(20,20,20)
 Inliner.Size = UDim2.fromOffset(126, 448)
 Inliner.BorderSizePixel = 0
 Inliner.Position = UDim2.fromScale(1, 0)
